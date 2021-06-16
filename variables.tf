@@ -17,3 +17,11 @@ variable "repository_description" {
   default     = "main"
 }
 
+variable "repository_name" {
+  type        = string
+  description = "Repository Name"
+  default     = "repo-name"
+}
+
+
+
