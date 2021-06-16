@@ -17,3 +17,17 @@ module "codecommit_repo" {
   default_branch  = var.default_branch
 }
 
+##########
+# AWS Label 
+##########
+
+module "repo_label" {
+  source    = "aws-ia/label/aws"
+  version   = "0.0.1"
+  region    = var.region
+  namespace = var.namespace
+  env       = var.env
+  name      = var.repository_name
+  delimiter = var.delimiter
+  tags      = tomap({ propogate_at_launch = "true", "terraform" = "true" })
+}
