@@ -23,3 +23,7 @@ variable "repository_name" {
   default     = "repo-name"
 }
 
+variable "tags" {
+  default     = {}
+  description = "Repo Tags"
+}

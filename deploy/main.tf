@@ -15,6 +15,7 @@ module "codecommit_repo" {
   repository_name        = var.repository_name
   default_branch         = var.default_branch
   repository_description = var.repository_description
+  tags                   = module.repo_label.tags
 }
 
 ##########
