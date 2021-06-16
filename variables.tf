@@ -23,5 +23,17 @@ variable "repository_name" {
   default     = "repo-name"
 }
 
+variable "namespace" {
+  description = "namespace, which could be your organiation name, e.g. amazon"
+  default     = "aws"
+}
 
+variable "env" {
+  description = "environment, e.g. 'sit', 'uat', 'prod' etc"
+  default     = "dev"
+}
 
+variable "delimiter" {
+  description = "delimiter, which could be used between name, namespace and env"
+  default     = "-"
+}
