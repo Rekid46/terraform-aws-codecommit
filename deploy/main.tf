@@ -11,10 +11,10 @@ terraform {
 }
 
 module "codecommit_repo" {
-  source          = "../"
-  repository_name = var.repository_name
-  description     = var.repository_description
-  default_branch  = var.default_branch
+  source                 = "../"
+  repository_name        = var.repository_name
+  default_branch         = var.default_branch
+  repository_description = var.repository_description
 }
 
 ##########
