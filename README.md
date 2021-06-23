@@ -1,7 +1,7 @@
 # Terraform AWS CodeCommit
 This module deploys Terraform-managed AWS CodeCommit.
 
-Authors: David Wright (dwright@hashicorp.com) and Tony Vattahil (tonynv@amazon.com)
+Author: Tony Vattahil (tonynv@amazon.com)
 
 # Install Terraform
 To deploy this module you must install Terraform. See [Install Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli) for a tutorial. 
@@ -35,7 +35,7 @@ AWS_SESSION_TOKEN = "*****************"
 
 Note: STS-based credentials are optional but highly recommended. 
 
-> !!!!CAUTION!!!!: Make sure your credentiasl are secured ourside of version control and follow secrets-management best practices.
+> !!!!CAUTION!!!!: Make sure your credentials are secured outside of version control and follow secrets-management best practices.
 
 # Deploy the module (Linux or Mac)
 
