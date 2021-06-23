@@ -24,12 +24,13 @@ _Example filepath_ = `$HOME/.aws/terraform.tfvars`
 
 _Example tfvars file contents_ 
 
+In the example, replace *** with your AKEY and SKEY.
+
 ```
 AWS_SECRET_ACCESS_KEY = "*****************"
 AWS_ACCESS_KEY_ID = "*****************"
 AWS_SESSION_TOKEN = "*****************"
 ```
-> (replace *** with AKEY and SKEY)
 
 Note: STS-based credentials are optional but highly recommended. 
 
