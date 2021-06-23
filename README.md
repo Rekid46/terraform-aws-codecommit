@@ -1,5 +1,6 @@
 # Terraform AWS CodeCommit
 This module deploys Terraform-managed AWS CodeCommit.
+
 Authors: David Wright (dwright@hashicorp.com) and Tony Vattahil (tonynv@amazon.com)
 
 # Install Terraform
